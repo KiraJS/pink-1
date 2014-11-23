@@ -1,0 +1,19 @@
+{
+  "name": "pink",
+  "version": "0.0.0",
+  "description": "Personal project in HTML Academy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alex-pol/pink.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alex-pol/pink/issues"
+  },
+  "homepage": "https://github.com/alex-pol/pink"
+}
