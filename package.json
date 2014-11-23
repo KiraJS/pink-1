@@ -4,7 +4,7 @@
   "description": "Personal project in HTML Academy",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make test"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/alex-pol/pink/issues"
   },
-  "homepage": "https://github.com/alex-pol/pink"
+  "homepage": "https://github.com/alex-pol/pink",
+  "devDependencies": {
+    "csscomb": "^3.0.4",
+    "jscs": "^1.7.3",
+    "jshint": "^2.5.10"
+  }
 }
