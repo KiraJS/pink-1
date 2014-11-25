@@ -1,0 +1,20 @@
+{
+  "name": "alex-pol-pink",
+  "version": "0.0.0",
+  "homepage": "https://github.com/alex-pol/pink",
+  "authors": [
+    "alex-pol"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bem-core": "~2.5.0"
+  }
+}
