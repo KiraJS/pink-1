@@ -1,0 +1,16 @@
+.review-slider__list
+{
+    list-style: none;
+}
+
+.review-slider__title
+{
+    margin-bottom: 17px;
+}
+
+.review-slider__text
+{
+    line-height: 2.2;
+
+    padding: 0 10px;
+}

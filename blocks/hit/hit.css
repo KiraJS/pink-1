@@ -1,0 +1,27 @@
+.hit
+{
+    position: absolute;
+    left: 25px;
+
+    overflow: hidden;
+
+    width: 85px;
+    height: 77px;
+}
+.hit:before
+{
+    line-height: 1.7;
+
+    position: absolute;
+    top: 14px;
+    left: -33px;
+
+    width: 120px;
+    height: 30px;
+
+    content: 'Хит';
+    transform: rotate(-45deg);
+
+    color: #fff;
+    background: #d22856;
+}

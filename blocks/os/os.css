@@ -1,0 +1,72 @@
+.os
+{
+    padding-top: 28px;
+    padding-bottom: 35px;
+
+    text-align: center;
+
+    background: #1d2631;
+}
+
+.os__download
+{
+    font-size: 18px;
+    font-weight: 700;
+
+    position: relative;
+
+    display: block;
+
+    max-width: 280px;
+    margin: 0 auto;
+    padding: 12px 0;
+
+    text-align: center;
+
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 30px;
+}
+
+.os__link
+{
+    display: inline-block;
+
+    width: 46px;
+    height: 57px;
+    margin-top: 30px;
+    margin-right: 36px;
+
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.os__link:last-of-type
+{
+    margin-right: 0;
+}
+.os__link_os_android
+{
+    background-image: url(android.png);
+}
+
+.os__link_os_ios
+{
+    background-image: url(apple.png);
+}
+
+.os__link_os_ms
+{
+    background-image: url(microsoft.png);
+}
+
+.os__text
+{
+    font-weight: 300;
+    line-height: 1.8;
+
+    margin-top: 19px;
+    padding: 0 20px;
+
+    color: #fff;
+}

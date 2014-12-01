@@ -1,0 +1,21 @@
+.title
+{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.title_theme_white
+{
+    color: #fff;
+}
+
+.title_theme_red
+{
+    color: #d22856;
+}
+
+.title_size_s
+{
+    font-size: 18px;
+    font-weight: 700;
+}

@@ -17,19 +17,19 @@ module.exports = function(bh) {
                     }
                 ]
             },
-            {
-                elem: 'item',
-                content: [
-                    {
-                        elem: 'title',
-                        content: 'Иван Иванов'
-                    },
-                    {
-                        elem: 'text',
-                        content: 'Review'
-                    }
-                ]
-            }
+            // {
+            //     elem: 'item',
+            //     content: [
+            //         {
+            //             elem: 'title',
+            //             content: 'Иван Иванов'
+            //         },
+            //         {
+            //             elem: 'text',
+            //             content: 'Review'
+            //         }
+            //     ]
+            // }
         ]);
     });
 };

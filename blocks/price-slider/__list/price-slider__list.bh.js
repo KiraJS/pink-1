@@ -14,7 +14,7 @@ module.exports = function(bh) {
                                     block: 'title',
                                     tag: 'p',
                                     mods: { theme: 'white' },
-                                    content: '1,99'
+                                    content: '1,99 USD'
                                 }
                             ]
                         },
@@ -46,6 +46,7 @@ module.exports = function(bh) {
                         {
                             elem: 'header',
                             content: [
+                                { block: 'hit' },
                                 { elem: 'title', content: 'Стандарт' },
                                 {
                                     block: 'title',

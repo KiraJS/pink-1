@@ -1,0 +1,17 @@
+.main-menu
+{
+    float: right;
+
+    width: 50px;
+    height: 24px;
+    margin-top: 20px;
+
+    cursor: pointer;
+
+    background: url(main-menu.png) no-repeat;
+}
+
+.main-menu__item
+{
+    display: none;
+}

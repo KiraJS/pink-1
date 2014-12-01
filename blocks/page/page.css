@@ -1,7 +1,31 @@
 .page
 {
-    font-family: Open Sans, Arial, sans-serif;
+    font: 14px/1.2 Open Sans, Arial, sans-serif;
+
+    margin: 0 auto;
 
     color: #283645;
-    background: #fff;
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+body,
+ul,
+li,
+h1,
+h2,
+h3,
+p,
+div
+{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    margin: 0 auto;
 }

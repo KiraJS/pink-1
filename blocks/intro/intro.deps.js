@@ -4,7 +4,8 @@
             block: 'os',
             elems: [
                 'text',
-                'link'
+                'link',
+                'download'
             ]
         }
     ]
