@@ -3,6 +3,7 @@ module.exports = function(bh) {
         ctx.content([
             { block: 'header' },
             { block: 'intro' },
+            { block: 'os' },
             { block: 'features' },
             { block: 'reviews' },
             { block: 'price' },

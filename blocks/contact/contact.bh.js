@@ -10,6 +10,7 @@ module.exports = function(bh) {
                     content: [
                         {
                             block: 'title',
+                            mix: { block: 'contact', elem: 'header' },
                             content: 'Остались вопросы? Свяжитесь с нами!'
                         },
                         {

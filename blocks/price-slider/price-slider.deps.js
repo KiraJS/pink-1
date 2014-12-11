@@ -7,6 +7,7 @@
                 'feature',
                 'header',
                 'title'
-            ] }
+            ] },
+        { block: 'hit' }
     ]
 });

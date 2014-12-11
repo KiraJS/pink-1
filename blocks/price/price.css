@@ -1,0 +1,21 @@
+.price
+{
+    margin-top: 110px;
+    padding-bottom: 50px;
+
+    background: #f2f2f2;
+}
+
+.price:before
+{
+    display: block;
+
+    width: 100%;
+    height: 38px;
+    margin-bottom: 58px;
+
+    content: '';
+
+    background: rgba(255,255,255,1);
+    background: linear-gradient(175deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(242,242,242,1) 51%, rgba(242,242,242,1) 100%);
+}

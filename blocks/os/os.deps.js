@@ -2,7 +2,9 @@
     shouldDeps: [
         {
             elems: [
-                'link'
+                'link',
+                'download',
+                'text'
             ]
         }
     ]

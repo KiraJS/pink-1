@@ -9,6 +9,7 @@
             ]
         },
         { block: 'footer' },
-        { block: 'link' }
+        { block: 'link' },
+        { block: 'map' }
     ]
 });
