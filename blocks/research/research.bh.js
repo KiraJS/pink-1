@@ -4,7 +4,7 @@ module.exports = function(bh) {
 
         ctx.content({
             block: 'container',
-            cls: 'clearfix',
+            mix: { block: 'clearfix' },
             content: [
                 {
                     block: 'research',

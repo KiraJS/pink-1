@@ -3,7 +3,7 @@ module.exports = function(bh) {
         ctx.tag('footer');
         ctx.content({
             block: 'container',
-            cls: 'clearfix',
+            mix: { block: 'clearfix' },
             content:[
                 {
                     block: 'footer',

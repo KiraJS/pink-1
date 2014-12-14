@@ -3,8 +3,20 @@ module.exports = function(bh) {
         ctx.content(
             {
                 tag: 'p',
-                content: 'Website by <img class="copyright__img" src="/blocks/copyright/author.png">' +
-                ' for <img class="copyright__img" src="/blocks/copyright/academy.png">'
+                content: [
+                    'Website by',
+                    {
+                        block: 'img',
+                        mix: { block: 'copyright', elem: 'img' },
+                        url: '/blocks/copyright/author.png'
+                    },
+                    'for',
+                    {
+                        block: 'img',
+                        mix: { block: 'copyright', elem: 'img' },
+                        url: '/blocks/copyright/academy.png'
+                    }
+                ]
             }
         );
     });
