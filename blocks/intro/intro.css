@@ -7,11 +7,32 @@
 
     text-align: center;
 
-    background: #1d2631 url('bg.jpg') no-repeat 50% 0;
+    background-color: #1d2631;
+    background-image: url('iphone_s.png'), url('bg.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 102%, center 0;
+    background-size: 320px 314px, cover;
 }
 
 .intro .title
 {
     margin-top: 20px;
-    padding: 0 20px;
+}
+
+@media (min-width: 700px)
+{
+    .intro
+    {
+        min-height: 729px;
+        margin-top: -110px;
+
+        background-image: url('iphone.png'), url('bg.jpg');
+        background-size: 700px 545px, cover;
+    }
+    .intro .title
+    {
+        width: 190px;
+        margin-top: 141px;
+        margin-left: 55px;
+    }
 }

@@ -5,15 +5,22 @@ module.exports = function(bh) {
         ctx.content([
             {
                 block: 'container',
+                cls: 'clearfix',
                 content: [
                     {
                         block: 'features',
-                        elem: 'header'
+                        elem: 'list'
                     },
                     {
                         block: 'features',
-                        elem: 'list'
+                        elem: 'img',
+                        content:
+                            {
+                                block: 'img',
+                                url: '/blocks/features/iphone.png'
+                            }
                     }
+
                 ]
             }
         ]);

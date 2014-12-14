@@ -12,6 +12,20 @@
     box-sizing: border-box;
 }
 
+.clearfix:before,
+.clearfix:after
+{
+    display: table; /* 2 */
+
+    content: ' '; /* 1 */
+}
+
+.clearfix:after
+{
+    clear: both;
+}
+
+
 body,
 ul,
 li,
@@ -27,5 +41,16 @@ div
 
 .container
 {
+    max-width: 700px;
     margin: 0 auto;
+    padding: 0 20px;
+}
+
+@media (min-width: 700px)
+{
+    .container
+    {
+        max-width: 1200px;
+        padding: 0 40px;
+    }
 }

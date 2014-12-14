@@ -4,5 +4,13 @@
 
     text-align: center;
 
-    background: #fff;
+    background-color: #fff;
+}
+
+@media (min-width: 700px)
+{
+    .reviews
+    {
+        margin-top: 70px;
+    }
 }

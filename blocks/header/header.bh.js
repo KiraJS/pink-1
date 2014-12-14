@@ -3,8 +3,14 @@ module.exports = function(bh) {
         ctx.tag('header');
 
         ctx.content([
-            { block: 'logo' },
-            { block: 'main-menu' }
+            {
+                block: 'container',
+                cls: 'clearfix',
+                content: [
+                    { block: 'logo', mods: { theme: 'white' } },
+                    { block: 'main-menu' }
+                ]
+            }
         ]);
     });
 };

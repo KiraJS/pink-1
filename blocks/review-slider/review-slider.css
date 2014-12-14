@@ -11,6 +11,38 @@
 .review-slider__text
 {
     line-height: 2.2;
+}
 
-    padding: 0 10px;
+.review-slider__title-bottom
+{
+    display: none;
+}
+
+@media (min-width: 700px)
+{
+    .review-slider__title-top
+    {
+        display: none;
+    }
+    .review-slider__title-bottom
+    {
+        display: block;
+    }
+    .review-slider__text
+    {
+        font-size: 18px;
+        line-height: 1.8;
+
+        margin-bottom: 38px;
+    }
+    .review-slider__title
+    {
+        font-size: 20px;
+
+        margin-bottom: 5px;
+    }
+    .review-slider__title-bottom .review-slider__text
+    {
+        font-size: 14px;
+    }
 }
