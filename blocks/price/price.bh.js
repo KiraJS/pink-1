@@ -6,7 +6,7 @@ module.exports = function(bh) {
                 {
                     block: 'container',
                     content: {
-                        block: 'price-slider'
+                        block: 'price-table'
                     }
                 }
 

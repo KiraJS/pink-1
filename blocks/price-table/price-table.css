@@ -1,0 +1,145 @@
+.price-table
+{
+    width: 100%;
+}
+
+
+.price-table__header
+{
+    position: relative;
+
+    overflow: hidden;
+
+    min-height: 98px;
+    padding-top: 20px;
+
+    text-align: center;
+
+    background: #283645;
+}
+
+
+
+.price-table__header .title_size_s
+{
+    font-size: 18px;
+
+    margin-bottom: 10px;
+}
+.price-table__section
+{
+    display: inline-block;
+
+    width: 100%;
+
+    vertical-align: bottom;
+    text-transform: uppercase;
+}
+.price-table__section:first-child
+{
+    display: none;
+}
+
+
+
+.price-table__feature
+{
+    height: 60px;
+    padding: 23px 19px;
+
+    border-bottom: 2px solid #e5e5e5;
+    background: #fff;
+    background-repeat: no-repeat;
+    background-position: 95%;
+    background-size: 25px;
+}
+
+
+.price-table__feature_included_yes
+{
+    background-image: url(yes.svg);
+}
+.price-table__feature_included_no
+{
+    background-image: url(no.svg);
+}
+
+.price-table__section_hit_yes
+{
+    position: relative;
+
+    overflow: hidden;
+}
+.price-table__section_hit_yes:before
+{
+    line-height: 1.7;
+
+    position: absolute;
+    z-index: 1000;
+    top: 10px;
+    left: -30px;
+
+    width: 100px;
+    height: 27px;
+
+    content: 'Хит';
+    transform: rotate(-45deg);
+    text-align: center;
+
+    color: #fff;
+    background: #d22856;
+}
+
+
+@media (min-width: 700px)
+{
+    .price-table__header .title_theme_white
+    {
+        font-size: 18px;
+    }
+    .price-table__header .title_size_s
+    {
+        font-size: 16px;
+
+        margin-bottom: 10px;
+    }
+
+    .price-table__header
+    {
+        min-height: 80px;
+    }
+
+    .price-table__section_hit_yes:before
+    {
+        top: 14px;
+        left: -33px;
+
+        width: 120px;
+        height: 30px;
+    }
+    .price-table__feature
+    {
+        height: 47px;
+        padding: 14px;
+
+        text-transform: none;
+    }
+    .price-table__feature_included_yes,
+    .price-table__feature_included_no
+    {
+        text-indent: -9999px;
+
+        background-position: center;
+    }
+    .price-table__section
+    {
+        width: 25%;
+
+        border: 1px solid #e5e5e5;
+        border-bottom: none;
+    }
+    .price-table__section:first-child
+    {
+        display: inline-block;
+    }
+}

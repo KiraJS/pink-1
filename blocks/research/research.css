@@ -1,0 +1,49 @@
+.research
+{
+    display: none;
+
+    margin-top: 50px;
+}
+
+.research__title
+{
+    font-size: 30px;
+
+    margin-bottom: 17px;
+}
+.research__text
+{
+    line-height: 1.5;
+
+    margin-bottom: 22px;
+}
+.research__link
+{
+    text-decoration: underline;
+
+    color: #d22856;
+}
+.research__description
+{
+    float: right;
+
+    width: 50%;
+    margin-top: 40px;
+}
+
+.research__img
+{
+    float: left;
+
+    width: 42%;
+
+    text-align: center;
+}
+
+@media (min-width: 700px)
+{
+    .research
+    {
+        display: block;
+    }
+}

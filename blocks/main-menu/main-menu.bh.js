@@ -1,34 +1,16 @@
 module.exports = function(bh) {
     bh.match('main-menu', function(ctx) {
-        ctx.tag('ul');
-        ctx.content([
+        ctx.content(
+            [{
+                block: 'main-menu',
+                elem: 'icon',
+                tag: 'span'
+            },
+            {
+                elem: 'list'
+            }
+            ]
 
-                {
-                    content: 'Информация',
-                    url: '/info'
-                },
-                {
-                    content: 'Возможности',
-                    url:'/feature'
-                },
-                {
-                    content: 'Отзывы',
-                    url: '/review'
-                },
-                {
-                    content: 'Стоимость',
-                    url: '/cost'
-                }
-            ].map(function(link) {
-                return {
-                    elem: 'item',
-                    content: {
-                        elem: 'link',
-                        content: link.content,
-                        url: link.url
-                    }
-                };
-            })
         );
     });
 };

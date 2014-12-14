@@ -70,3 +70,34 @@
 
     color: #fff;
 }
+
+@media (min-width: 700px)
+{
+    .os
+    {
+        float: left;
+
+        width: 380px;
+        margin-top: -373px;
+
+        background: none;
+    }
+    .os__download
+    {
+        margin: 0;
+    }
+    .os__link
+    {
+        margin-top: 47px;
+    }
+    .os__text
+    {
+        font-size: 18px;
+        line-height: 1.6;
+
+        margin-top: 29px;
+        padding: 0;
+
+        text-align: left;
+    }
+}

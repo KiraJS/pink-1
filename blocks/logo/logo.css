@@ -2,9 +2,12 @@
 {
     float: left;
 
-    margin-top: 20px;
-
     text-transform: uppercase;
+}
+
+.logo_theme_white
+{
+    margin-top: 20px;
 }
 .logo__link
 {
@@ -14,4 +17,33 @@
     text-decoration: none;
 
     color: #fff;
+}
+
+.logo_theme_black .logo__link
+{
+    color: #000;
+}
+
+@media (min-width: 700px)
+{
+    .logo_theme_white
+    {
+        margin-top: 30px;
+    }
+    .logo:before
+    {
+        display: inline-block;
+
+        width: 59px;
+        height: 40px;
+        margin-right: 10px;
+
+        content: '';
+
+        background: url(glasses.png);
+    }
+    .logo_theme_black:before
+    {
+        background: url(glasses-red.png);
+    }
 }

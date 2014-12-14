@@ -1,9 +1,10 @@
 module.exports = function(bh) {
     bh.match('features__header', function(ctx) {
-        ctx.tag('header');
+        ctx.tag('section');
 
-        ctx.content(
-            [
+        ctx.content({
+            block: 'container',
+            content: [
                 {
                     block: 'title',
                     tag: 'p',
@@ -15,6 +16,6 @@ module.exports = function(bh) {
                     content: 'Нам есть, что вам предложить!'
                 }
             ]
-        );
+        });
     });
 };

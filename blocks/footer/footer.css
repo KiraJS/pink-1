@@ -1,8 +1,26 @@
 .footer
 {
+    display: none;
+
     margin-top: 45px;
+    padding-bottom: 25px;
 
     text-align: center;
 
     background: #fff;
+}
+
+.footer__column
+{
+    float: left;
+
+    width: 33.33%;
+}
+
+@media (min-width: 700px)
+{
+    .footer
+    {
+        display: block;
+    }
 }

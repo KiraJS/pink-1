@@ -11,6 +11,72 @@
 .review-slider__text
 {
     line-height: 2.2;
+}
+.review-slider__text:nth-of-type(1)
+{
+    display: none;
+}
+.review-slider__title-bottom
+{
+    display: none;
+}
 
-    padding: 0 10px;
+.review-slider__item
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media (min-width: 700px)
+{
+    .review-slider__title-top
+    {
+        display: none;
+    }
+    .review-slider__title-bottom
+    {
+        display: block;
+    }
+    .review-slider__text
+    {
+        font-size: 18px;
+        line-height: 1.8;
+
+        margin-bottom: 38px;
+    }
+    .review-slider__text:nth-of-type(1)
+    {
+        display: block;
+
+        order: 2;
+    }
+    .review-slider__title
+    {
+        font-size: 20px;
+
+        margin-bottom: 5px;
+
+        order: 2;
+    }
+    .review-slider__title-bottom .review-slider__text
+    {
+        font-size: 14px;
+    }
+}
+@media (min-width: 1200px)
+{
+    .review-slider__item
+    {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .review-slider__title
+    {
+        font-size: 24px;
+    }
+    .review-slider__text
+    {
+        font-size: 18px;
+    }
 }

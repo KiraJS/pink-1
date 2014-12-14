@@ -1,39 +1,39 @@
 .features
 {
-    padding-top: 41px;
+    text-align: center;
+
+    background-color: #f2f2f2;
+}
+.features__header
+{
+    margin-top: 50px;
 
     text-align: center;
 }
 
 .features__list
 {
-    padding-bottom: 280px;
+    padding-bottom: 5px;
 
     list-style: none;
-
-    background: #f2f2f2 url(iphone.png) no-repeat 50% 110%;
 }
 
-.features__list:before
+.features:before
 {
     display: block;
 
     width: 100%;
-    height: 38px;
-    margin-bottom: 48px;
+    height: 10em;
 
     content: '';
 
     background: rgba(255,255,255,1);
-    background: linear-gradient(174deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(242,242,242,1) 51%, rgba(242,242,242,1) 100%);
+    background: linear-gradient(175deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(242,242,242,1) 51%, rgba(242,242,242,1) 100%);
 }
-
 
 .features__text
 {
     line-height: 1.5;
-
-    padding: 0 20px;
 
     color: #283645;
 }
@@ -51,4 +51,51 @@
 .features__header .title
 {
     margin-bottom: 30px;
+}
+
+.features__img img
+{
+    max-width: 157px;
+}
+
+@media (min-width: 700px)
+{
+    .features__header .title:nth-child(2)
+    {
+        width: 340px;
+        margin: 0 auto;
+    }
+    .features__header .title
+    {
+        margin-bottom: 0;
+    }
+    .features__title
+    {
+        font-size: 18px;
+    }
+    .features__item
+    {
+        margin-bottom: 40px;
+
+        text-align: left;
+    }
+
+    .features__list
+    {
+        float: right;
+
+        width: 50%;
+        margin-top: -14px;
+    }
+    .features__img
+    {
+        float: left;
+
+        width: 43%;
+        margin-top: -86px;
+    }
+    .features__img img
+    {
+        max-width: 550px;
+    }
 }
