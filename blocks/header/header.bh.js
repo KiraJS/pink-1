@@ -8,7 +8,8 @@ module.exports = function(bh) {
                 mix: { block: 'clearfix' },
                 content: [
                     { block: 'logo', mods: { theme: 'white' } },
-                    { block: 'main-menu' }
+                    { block: 'main-menu' },
+                    { block: 'main-menu-desktop' }
                 ]
             }
         ]);

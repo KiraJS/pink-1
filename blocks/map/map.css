@@ -2,7 +2,9 @@
 {
     min-height: 200px;
 
-    background: url(map.jpg) no-repeat 50% 0;
+    background-image: url(map.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
     background-size: 100%;
 }
 .map:before
@@ -16,4 +18,14 @@
 
     background: url(map-mask.png) no-repeat;
     background-size: 100% 100%;
+}
+
+@media (min-width: 1200px)
+{
+    .map
+    {
+        min-height: 525px;
+
+        background-image: url(map-l.jpg);
+    }
 }

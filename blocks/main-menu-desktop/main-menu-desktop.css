@@ -1,0 +1,31 @@
+.main-menu-desktop__list
+{
+    display: none;
+    float: right;
+}
+.main-menu-desktop__item
+{
+    display: inline-block;
+
+    padding: 20px;
+}
+
+.main-menu-desktop__link
+{
+    font-size: 18px;
+
+    display: inline-block;
+
+    padding: 20px 20px;
+
+    color: #fff;
+}
+
+
+@media (min-width: 1200px)
+{
+    .main-menu-desktop__list
+    {
+        display: block;
+    }
+}

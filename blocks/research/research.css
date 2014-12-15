@@ -39,10 +39,51 @@
 
     text-align: center;
 }
+.research__img .desktop
+{
+    display: none;
+}
 
 @media (min-width: 700px)
 {
     .research
+    {
+        display: block;
+    }
+}
+@media (min-width: 1200px)
+{
+    .research
+    {
+        margin-top: 0;
+        padding-top: 20px;
+        padding-bottom: 68px;
+
+        background-color: #f2f2f2;
+    }
+    .research__img
+    {
+        width: 30%;
+    }
+    .research__description
+    {
+        width: 70%;
+        margin-top: 94px;
+        padding: 0 84px;
+    }
+    .research__title
+    {
+        margin-bottom: 27px;
+    }
+    .research__text
+    {
+        margin-bottom: 42px;
+    }
+    .research__img .mobile
+    {
+        display: none;
+    }
+    .research__img .desktop
     {
         display: block;
     }

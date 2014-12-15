@@ -72,3 +72,11 @@
         margin-top: 50px;
     }
 }
+
+@media (min-width: 1200px)
+{
+    .main-menu
+    {
+        display: none;
+    }
+}

@@ -45,3 +45,19 @@
         font-size: 24px;
     }
 }
+
+@media (min-width: 1200px)
+{
+    .contact
+    {
+        margin-top: 35px;
+    }
+    .contact__address,
+    .contact__phone,
+    .contact__email
+    {
+        float: left;
+
+        width: 33.33%;
+    }
+}

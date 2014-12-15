@@ -54,3 +54,15 @@ div
         padding: 0 40px;
     }
 }
+@media (min-width: 1200px)
+{
+    .container
+    {
+        max-width: 1440px;
+        padding: 0 130px;
+    }
+    .page
+    {
+        font: 18px/1.2 Open Sans, Arial, sans-serif;
+    }
+}

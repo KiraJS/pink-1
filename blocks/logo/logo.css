@@ -47,3 +47,15 @@
         background: url(glasses-red.png);
     }
 }
+
+@media (min-width: 1200px)
+{
+    .logo:before
+    {
+        background-image: url(glasses-l.png);
+    }
+    .logo_theme_black:before
+    {
+        background: url(glasses-red-l.png);
+    }
+}
