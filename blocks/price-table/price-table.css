@@ -19,10 +19,13 @@
 }
 
 
-
-.price-table__header .title_size_s
+.price-table__header .title_theme_white
 {
     font-size: 18px;
+}
+.price-table__header .title_size_s
+{
+    font-size: 16px;
 
     margin-bottom: 10px;
 }
@@ -37,7 +40,12 @@
 }
 .price-table__section:first-child
 {
-    display: none;
+    width: 25%;
+
+    vertical-align: bottom;
+
+    border: 1px solid #e5e5e5;
+    border-bottom: none;
 }
 
 
@@ -90,7 +98,6 @@
     background: #d22856;
 }
 
-
 @media (min-width: 700px)
 {
     .price-table__header .title_theme_white
@@ -108,7 +115,30 @@
     {
         min-height: 80px;
     }
+}
 
+@media (min-width: 1200px)
+{
+    .price-table__feature
+    {
+        height: 60px;
+        padding: 20px 25px;
+    }
+
+    .price-table__header .title_size_s
+    {
+        font-size: 18px;
+
+        margin-bottom: 10px;
+    }
+    .price-table__header .title_theme_white
+    {
+        font-size: 24px;
+    }
+    .price-table__header
+    {
+        min-height: 98px;
+    }
     .price-table__section_hit_yes:before
     {
         top: 14px;

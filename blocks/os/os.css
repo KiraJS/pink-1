@@ -101,3 +101,32 @@
         text-align: left;
     }
 }
+
+@media (min-width: 1200px)
+{
+    .os
+    {
+        width: 300px;
+        margin-top: -430px;
+        margin-left: 130px;
+    }
+    .os .container
+    {
+        width: 100%;
+        padding: 0;
+    }
+    .os__download
+    {
+        font-size: 21px;
+
+        max-width: 300px;
+    }
+    .os__link
+    {
+        margin-top: 62px;
+    }
+    .os__text
+    {
+        margin-top: 50px;
+    }
+}

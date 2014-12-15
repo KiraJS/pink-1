@@ -9,10 +9,18 @@ module.exports = function(bh) {
                 {
                     block: 'research',
                     elem: 'img',
-                    content: {
-                        block: 'img',
-                        url: '/blocks/research/clock.png'
-                    }
+                    content: [
+                        {
+                            block: 'img',
+                            cls: 'mobile',
+                            url: '/blocks/research/clock.png'
+                        },
+                        {
+                            block: 'img',
+                            cls: 'desktop',
+                            url: '/blocks/research/clock-l.png'
+                        }
+                    ]
 
                 },
                 {
@@ -23,7 +31,7 @@ module.exports = function(bh) {
                             block: 'title',
                             mix: { block: 'research', elem: 'title' },
                             mods: { size: 's' },
-                            content: 'Эффект <br> на 24 часа!'
+                            content: 'Эффект на 24 часа!'
                         },
                         {
                             block: 'research',

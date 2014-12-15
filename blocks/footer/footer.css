@@ -24,3 +24,15 @@
         display: block;
     }
 }
+
+@media (min-width: 1200px)
+{
+    .footer
+    {
+        min-height: 195px;
+    }
+    .footer__column
+    {
+        margin-top: 50px;
+    }
+}

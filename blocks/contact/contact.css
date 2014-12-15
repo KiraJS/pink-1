@@ -47,3 +47,27 @@
         margin-bottom: 8px;
     }
 }
+
+@media (min-width: 1200px)
+{
+    .contact
+    {
+        margin-top: 130px;
+    }
+    .contact__address,
+    .contact__phone,
+    .contact__email
+    {
+        float: left;
+
+        width: 33.33%;
+    }
+    .contact__header
+    {
+        margin-bottom: 60px;
+    }
+    .contact__title
+    {
+        margin-bottom: 26px;
+    }
+}

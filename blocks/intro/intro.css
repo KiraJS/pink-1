@@ -33,3 +33,19 @@
         margin-left: 55px;
     }
 }
+
+@media (min-width: 1200px)
+{
+    .intro
+    {
+        min-height: 855px;
+
+        background-position: 70% 102%;
+        background-size: 835px auto, cover ;
+    }
+    .intro .title
+    {
+        width: 300px;
+        margin-left: 0;
+    }
+}

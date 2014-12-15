@@ -5,12 +5,28 @@
     text-align: center;
 
     background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
 }
 
 @media (min-width: 700px)
 {
     .reviews
     {
-        margin-top: 70px;
+        padding-top: 15px;
+    }
+}
+
+@media (min-width: 1200px)
+{
+    .review
+    {
+        margin-top: 181px;
+    }
+    .reviews
+    {
+        padding-top: 125px;
+
+        background-image: url(quote.png);
     }
 }

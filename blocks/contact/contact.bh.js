@@ -5,6 +5,7 @@ module.exports = function(bh) {
             [{
                 block: 'container',
                 cls: 'vcard',
+                mix: { block: 'clearfix' },
                 content: [
                     {
                         block: 'title',
