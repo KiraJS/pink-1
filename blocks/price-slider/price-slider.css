@@ -49,3 +49,11 @@
 {
     background-image: url(no.png);
 }
+
+@media (min-width: 700px)
+{
+    .price-slider
+    {
+        display: none;
+    }
+}

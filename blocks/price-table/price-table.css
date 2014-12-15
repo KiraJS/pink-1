@@ -1,0 +1,103 @@
+.price-table
+{
+    display: none;
+
+    width: 100%;
+}
+
+.price-table__features
+{
+    list-style: none;
+}
+
+.price-table__header
+{
+    position: relative;
+
+    overflow: hidden;
+
+    min-height: 79px;
+    padding-top: 20px;
+
+    text-align: center;
+
+    background: #283645;
+}
+
+
+.price-table__header .title_theme_white
+{
+    font-size: 18px;
+}
+.price-table__header .title_size_s
+{
+    font-size: 16px;
+
+    margin-bottom: 10px;
+}
+.price-table__section
+{
+    display: inline-block;
+
+    width: 25%;
+
+    vertical-align: bottom;
+
+    border: 1px solid #e5e5e5;
+    border-bottom: none;
+}
+
+
+
+.price-table__feature
+{
+    height: 45px;
+    padding: 15px 19px;
+
+    border-bottom: 2px solid #e5e5e5;
+    background: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25px;
+}
+
+.price-table__feature_included_yes
+{
+    background-image: url(yes.svg);
+}
+.price-table__feature_included_no
+{
+    background-image: url(no.svg);
+}
+
+@media (min-width: 700px)
+{
+    .price-table
+    {
+        display: block;
+    }
+}
+
+@media (min-width: 1200px)
+{
+    .price-table__feature
+    {
+        height: 60px;
+        padding: 20px 25px;
+    }
+
+    .price-table__header .title_size_s
+    {
+        font-size: 18px;
+
+        margin-bottom: 10px;
+    }
+    .price-table__header .title_theme_white
+    {
+        font-size: 24px;
+    }
+    .price-table__header
+    {
+        min-height: 98px;
+    }
+}
