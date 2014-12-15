@@ -29,14 +29,10 @@
         width: 45%;
         margin: 0 auto;
     }
-    .contact__phone
-    {
-        width: 183px;
-        margin-right: 130px;
-    }
+    .contact__phone,
     .contact__email
     {
-        width: 200px;
+        width: 50%;
     }
     .contact__title
     {
