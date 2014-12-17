@@ -46,6 +46,11 @@ div
     padding: 0 20px;
 }
 
+ul
+{
+    list-style: none;
+}
+
 @media (min-width: 700px)
 {
     .container

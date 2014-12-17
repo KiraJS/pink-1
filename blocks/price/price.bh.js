@@ -8,9 +8,6 @@ module.exports = function(bh) {
                     content:
                         [
                             {
-                                block: 'price-slider'
-                            },
-                            {
                                 block: 'price-table'
                             }
                         ]

@@ -1,14 +1,8 @@
 .price-table
 {
-    display: none;
-
     width: 100%;
 }
 
-.price-table__features
-{
-    list-style: none;
-}
 
 .price-table__header
 {
@@ -61,6 +55,7 @@
     background-size: 25px;
 }
 
+
 .price-table__feature_included_yes
 {
     background-image: url(yes.svg);
@@ -70,12 +65,30 @@
     background-image: url(no.svg);
 }
 
-@media (min-width: 700px)
+.price-table__section_hit_yes
 {
-    .price-table
-    {
-        display: block;
-    }
+    position: relative;
+
+    overflow: hidden;
+}
+.price-table__section_hit_yes:before
+{
+    line-height: 1.7;
+
+    position: absolute;
+    z-index: 1000;
+    top: 10px;
+    left: -30px;
+
+    width: 100px;
+    height: 27px;
+
+    content: 'Хит';
+    transform: rotate(-45deg);
+    text-align: center;
+
+    color: #fff;
+    background: #d22856;
 }
 
 @media (min-width: 1200px)
@@ -99,5 +112,13 @@
     .price-table__header
     {
         min-height: 98px;
+    }
+    .price-table__section_hit_yes:before
+    {
+        top: 14px;
+        left: -33px;
+
+        width: 120px;
+        height: 30px;
     }
 }

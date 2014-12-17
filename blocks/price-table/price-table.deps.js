@@ -1,7 +1,7 @@
 ({
     shouldDeps: [
         {
-            elems: [ 'section', 'features', 'feature', 'header', 'title' ]
+            elems: [ 'section', 'features', 'feature', 'feature-name', 'header', 'title' ]
         }
     ]
 });
