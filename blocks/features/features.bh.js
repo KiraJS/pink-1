@@ -14,7 +14,7 @@ module.exports = function(bh) {
                     {
                         block: 'features',
                         elem: 'img',
-                        cls: 'mobile',
+                        mods: { type: 'mobile' },
                         content:
                             {
                                 block: 'img',

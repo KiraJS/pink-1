@@ -77,6 +77,33 @@
 {
     .main-menu
     {
+        margin: 0;
+    }
+    .main-menu__list
+    {
+        position: static;
+
+        display: block;
+        float: right;
+
+        width: auto;
+    }
+    .main-menu__item
+    {
+        display: inline-block;
+
+        margin-right: 70px;
+        padding: 20px 0;
+
+        border: none;
+        background: none;
+    }
+    .main-menu__item:last-child
+    {
+        margin: 0;
+    }
+    .main-menu__icon
+    {
         display: none;
     }
 }

@@ -6,30 +6,19 @@ module.exports = function(bh) {
                 elem: 'item',
                 content: [
                     {
-                        elem: 'title-top',
-                        content: {
-                            elem: 'title',
-                            content: 'Николай Петров'
-                        }
+                        elem: 'title',
+                        content: 'Николай Петров'
+
+                    },
+                    {
+                        elem: 'text',
+                        content: '25 лет, водитель трамвая'
                     },
                     {
                         elem: 'text',
                         content: '«Это приложение перевернуло мой мир и ' +
                         'позволило по-новому взглянуть на привчные сервые вещи! ' +
                         'А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»'
-                    },
-                    {
-                        elem: 'title-bottom',
-                        content: [
-                            {
-                                elem: 'title',
-                                content: 'Николай Петров'
-                            },
-                            {
-                                elem: 'text',
-                                content: '25 лет, водитель трамвая'
-                            }
-                        ]
                     }
                 ]
             },

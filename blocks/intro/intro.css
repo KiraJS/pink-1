@@ -40,7 +40,6 @@
     {
         min-height: 855px;
 
-        background-image: url('iphone.png'), url(bg.jpg);
         background-position: 70% 102%;
         background-size: 835px auto, cover ;
     }
