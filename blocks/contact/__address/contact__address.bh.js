@@ -10,8 +10,8 @@ module.exports = function(bh) {
                 block: 'link',
                 cls: 'address',
                 mix: {
-                    block: 'title',
-                    mods: { theme: 'red' }
+                    block: 'contact',
+                    elem: 'link'
                 },
                 content: 'Санкт-Петербург, Невский проспект, д. 20'
             }

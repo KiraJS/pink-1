@@ -1,7 +1,19 @@
 .map
 {
     min-height: 200px;
-    margin-top: 45px;
 
     background: url(map.jpg) no-repeat 50% 0;
+    background-size: 100%;
+}
+.map:before
+{
+    display: inline-block;
+
+    width: 100%;
+    min-height: 80px;
+
+    content: '';
+
+    background: url(map-mask.png) no-repeat;
+    background-size: 100% 100%;
 }

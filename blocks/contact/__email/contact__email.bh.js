@@ -10,8 +10,8 @@ module.exports = function(bh) {
                 block: 'link',
                 cls: 'email',
                 mix: {
-                    block: 'title',
-                    mods: { theme: 'red' }
+                    block: 'contact',
+                    elem: 'link'
                 },
                 url: 'mailto:hello@pinkapp.ru',
                 content: 'hello@pinkapp.ru'

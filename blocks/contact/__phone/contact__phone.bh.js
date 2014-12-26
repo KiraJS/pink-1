@@ -10,8 +10,8 @@ module.exports = function(bh) {
                 block: 'link',
                 cls: 'tel',
                 mix: {
-                    block: 'title',
-                    mods: { theme: 'red' }
+                    block: 'contact',
+                    elem: 'link'
                 },
                 url: 'tel:+78001000900',
                 content: '8 (800) 1000 900'

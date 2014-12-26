@@ -8,6 +8,11 @@ module.exports = function(bh) {
                     {
                         elem: 'title',
                         content: 'Николай Петров'
+
+                    },
+                    {
+                        elem: 'text',
+                        content: '25 лет, водитель трамвая'
                     },
                     {
                         elem: 'text',

@@ -3,6 +3,9 @@ module.exports = function(bh) {
         ctx.tag('section');
         ctx.content([
             {
+                block: 'header'
+            },
+            {
                 block: 'container',
                 content: [
                     {
@@ -12,6 +15,7 @@ module.exports = function(bh) {
                         content: 'Взгляните на жизнь иначе!'
                     }
                 ]
-        }]);
+            }
+        ]);
     });
 };

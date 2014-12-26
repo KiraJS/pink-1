@@ -1,0 +1,9 @@
+({
+    shouldDeps: [
+        {
+            elems: [
+                'link'
+            ]
+        }
+    ]
+});

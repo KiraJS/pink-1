@@ -1,0 +1,33 @@
+.social__link
+{
+    display: inline-block;
+
+    width: 52px;
+    height: 52px;
+    margin-right: 10px;
+
+    border: 3px solid #e9ebec;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.social__link:last-child
+{
+    margin-right: 0;
+}
+
+.social__link_social_twitter
+{
+    background-image: url(twitter.png);
+}
+
+.social__link_social_facebook
+{
+    background-image: url(facebook.png);
+}
+
+.social__link_social_youtube
+{
+    background-image: url(youtube.png);
+}
