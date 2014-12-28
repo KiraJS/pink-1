@@ -121,19 +121,22 @@
 {
     .price-table__feature
     {
-        height: 60px;
-        padding: 20px 25px;
+        height: 62px;
+        padding: 20px 30px;
+
+        text-transform: none;
     }
 
+
+    .price-table__header .title_theme_white
+    {
+        font-size: 24px;
+    }
     .price-table__header .title_size_s
     {
         font-size: 18px;
 
         margin-bottom: 10px;
-    }
-    .price-table__header .title_theme_white
-    {
-        font-size: 24px;
     }
     .price-table__header
     {
@@ -146,13 +149,6 @@
 
         width: 120px;
         height: 30px;
-    }
-    .price-table__feature
-    {
-        height: 47px;
-        padding: 14px;
-
-        text-transform: none;
     }
     .price-table__feature_included_yes,
     .price-table__feature_included_no
