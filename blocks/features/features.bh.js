@@ -15,13 +15,8 @@ module.exports = function(bh) {
                         block: 'features',
                         elem: 'img',
                         mods: { type: 'mobile' },
-                        content:
-                            {
-                                block: 'img',
-                                url: '/blocks/features/iphone.png'
-                            }
+                        url: '/blocks/features/iphone.png'
                     }
-
                 ]
             }
         ]);
